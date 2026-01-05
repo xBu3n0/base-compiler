@@ -1,4 +1,4 @@
-package posfix
+package postfix
 
 import (
 	"fmt"
@@ -8,9 +8,9 @@ import (
 	"github.com/xBu3n0/base-compiler/compiler/analyzer/lexer"
 	"github.com/xBu3n0/base-compiler/compiler/analyzer/semantic"
 	"github.com/xBu3n0/base-compiler/compiler/analyzer/syntax"
-	cLexer "github.com/xBu3n0/base-compiler/compiler/lang/posfix/lexer"
-	cSemantic "github.com/xBu3n0/base-compiler/compiler/lang/posfix/semantic"
-	cSyntax "github.com/xBu3n0/base-compiler/compiler/lang/posfix/syntax"
+	cLexer "github.com/xBu3n0/base-compiler/compiler/lang/postfix/lexer"
+	cSemantic "github.com/xBu3n0/base-compiler/compiler/lang/postfix/semantic"
+	cSyntax "github.com/xBu3n0/base-compiler/compiler/lang/postfix/syntax"
 	"github.com/xBu3n0/base-compiler/compiler/source"
 )
 

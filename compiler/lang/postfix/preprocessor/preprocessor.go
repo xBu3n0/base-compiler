@@ -1,4 +1,4 @@
-package posfix
+package postfix
 
 import "github.com/xBu3n0/base-compiler/compiler/analyzer/preprocessor"
 

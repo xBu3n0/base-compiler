@@ -1,4 +1,4 @@
-package posfix
+package postfix
 
 import (
 	"errors"

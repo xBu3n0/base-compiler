@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xBu3n0/base-compiler/compiler/lang/posfix"
+	"github.com/xBu3n0/base-compiler/compiler/lang/postfix"
 	"github.com/xBu3n0/base-compiler/compiler/source"
 )
 
@@ -35,7 +35,7 @@ func main() {
 	}
 
 	/** Compiler */
-	comp := posfix.NewCompiler()
+	comp := postfix.NewCompiler()
 
 	ast, err := comp.Compile(sourceStream)
 
